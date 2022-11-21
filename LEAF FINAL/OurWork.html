@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>LEAF</title>
+        <link rel="stylesheet" href="style_leaf.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;
+        700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+
+    </head>
+<body>  
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="Images/Gold_leaf.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_leaf.html">ABOUT LEAF</a></li>
+                    <li><a href="OurWork.html">OUR WORK</a></li>
+                    <li><a href="help_child.html">HELP CHILDREN</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Work</h1>
+    </section>
+
+
+    <!----------Our Work------------->
+
+
+
+    <section class="ourwork">
+        <h1>How we help?</h1>
+        <div class="row">
+            <div class="ourwork-col">
+                <h3>VISION</h3>
+                <p>We envision a world in which marginalized young people are provided the opportunities 
+                    to emerge from poverty to lead fulfilling lives that positively contribute to their 
+                    communities and future generation
+                </p>
+            </div>
+            <div class="ourwork-col">
+                <h3>MISSION</h3>
+                <p>As vulnerable young people transition to adulthood, we aim to equip them with the 
+                    necessary skills for a sustainable livelihood and promising future. Facilitate learning 
+                    and coordination between organisations working for children and their future
+                </p>
+            </div>
+            <div class="ourwork-col">
+                <h3>CULTURE</h3>
+                <p>Our culture is centred around the pillars of excellence, trust, dedication and transparency. 
+                    We believe in open communication and positivity, with the goal of delivering results for our partners.
+                    Our culture is one of partnership, diversity and ensuring employee satisfaction. 
+                   </p>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+      <!--footer-->
+    <section class="footer">
+
+        <h4>About Us</h4>
+        <p> Developed and Designed a website for  NGO.<br> Developed by Akshat Sagar, Vanshika & Tripurari Kumar </p>
+        <p>&copy; 2022 LEAF Organisation</p>
+        
+    </section>
+
+
+
+
+
+    <!------ javascript fot toggle menu----->
+
+
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>

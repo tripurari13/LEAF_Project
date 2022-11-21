@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>LEAF</title>
+        <link rel="stylesheet" href="style_leaf.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;
+        700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
+    </head>
+
+<body>  
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="Images/Gold_leaf.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_leaf.html">ABOUT LEAF</a></li>
+                    <li><a href="OurWork.html">OUR WORK</a></li>
+                    <li><a href="help_child.html">HELP CHILDREN</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+      
+
+    </section>
+
+
+
+
+    <!----------about us content------------->
+
+
+
+    
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1> We are growing together as an NGO</h1>
+                <p>We started two years back in 2020 to fight from covid-19
+                    and help the world to come through these times. 
+                    <br>
+                    Surely everyone was hit and we still are going through a lot of losses
+                    in our lives.<br>
+                    We took the step to start with children and are on the way
+                    to move far and help if not Billions then Millions.
+                </p>
+                
+            </div>
+            <div class="about-col">
+                <img src="Images/smiling_kid_red.jpeg">
+            </div>
+        </div>
+    </section>
+    
+    
+      <!--footer-->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p> Developed and Designed a website for  NGO.<br> Developed by Akshat Sagar, Vanshika & Tripurari Kumar </p>
+        <p>&copy; 2022 LEAF Organisation</p>
+        
+
+
+    <!------ javascript fot toggle menu----->
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
